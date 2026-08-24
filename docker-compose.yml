@@ -1,0 +1,11 @@
+services:
+  jupyterlab:
+    platform: linux/amd64
+    build:
+      context: .
+      dockerfile: Dockerfile
+    network_mode: bridge
+    ports:
+      - "9000:9000"
+    volumes:
+      - .:/work/
