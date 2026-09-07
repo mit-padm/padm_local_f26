@@ -13,10 +13,10 @@ Information on the [clone](https://docs.github.com/en/repositories/creating-and-
 
 If you have git installed, you can clone and change directory into this repository using:
 ```bash
-git clone https://github.com/mit-padm/padm_local_f25.git
-cd padm_local_f25
+git clone https://github.com/mit-padm/padm_local_f26.git
+cd padm_local_f26
 ```
-If not, you can download the repository by clicking Code -> Download Zip. This is not reccomended. 
+If not, you can download the repository by clicking Code -> Download Zip. This is not recommended. 
 
 
 ## Instructions for Windows/WSL
@@ -28,7 +28,7 @@ If not, you can download the repository by clicking Code -> Download Zip. This i
 
 **Clone repository**
 - Open WSL. Do not clone the repository in Windows.
-- ```git clone https://github.com/mit-padm/padm_local_f25.git```
+- ```git clone https://github.com/mit-padm/padm_local_f26.git```
 
 **Setup Docker**
 - Follow the steps under "Turn on Docker Desktop WSL 2" at https://docs.docker.com/desktop/wsl/, making sure WSL 2 is clicked during install (it may be selected by default)
@@ -38,7 +38,7 @@ If not, you can download the repository by clicking Code -> Download Zip. This i
 ## Downloading the Homework
 > Note: On windows/WSL, run all commands inside of WSL.
 
-This command has to be run from the `padm_local_f25` directory. If you have git, directly pull from this repo to get the newest homework.
+This command has to be run from the `padm_local_f26` directory. If you have git, directly pull from this repo to get the newest homework.
 ```bash
 git pull
 ```
@@ -47,7 +47,7 @@ You may run into conflicts you need to [resolve](https://opensource.com/article/
 If you do not have git, download the .zip file on Canvas - Modules - Homeworks. For example, for pset 5, the zip file is `ps5-reinforcement-learning.zip`. Place the downloaded folder (you may have to unzip it) in the `homeworks` folder in this repository.
 
 ## Running the Homework / Project
-First open the docker app. Then, build the docker image by running the following command in the terminal/WSL. If you are using Windows, you *must* run the following in WSL instead of your regular terminal. Note that your current working directory should be the root level of this repository (`padm_local_f25/`)
+First open the docker app. Then, build the docker image by running the following command in the terminal/WSL. If you are using Windows, you *must* run the following in WSL instead of your regular terminal. Note that your current working directory should be the root level of this repository (`padm_local_f26/`)
 ```bash
 bash start_docker.sh ps<number>
 ```
@@ -74,7 +74,7 @@ Once you open the last link in your browser, you should see your local files on 
 <!-- ### Visual Studio Code
 Install the Jupyter extension. 
 
-Open the padm_local_f25 folder
+Open the padm_local_f26 folder
 
 Click `Select Kernel` in the top right corner
 
