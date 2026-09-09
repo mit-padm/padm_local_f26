@@ -6,11 +6,7 @@ if [ "$#" -ne 1 ]; then
   exit 1
 fi
 
-if [ "$1" = "ps1" ]; then
-  HW_DIR="ps1-uninformed-search"
-else
-  HW_DIR=$1
-fi
+HW_DIR=$1
 
 # exit if build fails
 set -e 
